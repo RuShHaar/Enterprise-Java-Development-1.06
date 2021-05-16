@@ -15,7 +15,7 @@ Hinweis:
 
          //toString
          @Override
-         public String toString(Employee employee) {
+         public String toString() {
                  return  "Name: " + getName() +
                          " Gehalt: " + getSalary() +
                          " Abteilung: " + getDepartment() + "\n";
